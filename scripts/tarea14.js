@@ -27,8 +27,8 @@ function tarea14act1() {
 
   //obtencion de valor de los inputs
   let total = document.getElementById('input1').value;
-  let niños = document.getElementById('input2').value;
-  let niñas = document.getElementById('input3').value;
+  let ninos = document.getElementById('input2').value;
+  let ninas = document.getElementById('input3').value;
 
 
   //cálculos
