@@ -1,10 +1,14 @@
 ///////////////////////////////////////////////////////
 
-let numUno = +prompt('Ingrese un primer numero');
-let numDos = +prompt('Ingrese un segundo numero');
-let suma = numUno + numDos;
-let producto = numUno * numDos;
-console.log(`La suma de tus números ${numUno} y ${numDos} es ${suma} y su producto es ${producto}`);
+function ej1(){
+  let numUno = +prompt('Ingrese un primer numero');
+  let numDos = +prompt('Ingrese un segundo numero');
+  let suma = numUno + numDos;
+  let producto = numUno * numDos;
+  console.log(`La suma de tus números ${numUno} y ${numDos} es ${suma} y su producto es ${producto}`);
+}
+
+
 
 
 let numEntero = +prompt('Ingrese un numero entero');
