@@ -8,23 +8,22 @@ function ej1() {
   console.log(`La suma de tus números ${numUno} y ${numDos} es ${suma} y su producto es ${producto}`);
 }
 
-
-
-
-function stop() {
+function ej2(){
   let numEntero = +prompt('Ingrese un numero entero');
   let porcentaje = numEntero * 0.2;
   console.log(`El 10% de ${numEntero} es ${porcentaje}`);
+}
 
-
+function ej3(){
   let nMetros = +prompt('Ingrese un número de metros');
   let equivCM = nMetros * 100;
   let equivMM = equivCM * 10;
 
   console.log(`${nMetros} metros es igual a ${equivCM} cm y es igual a ${equivMM} milímetros`);
 
+}
 
-
+function ej4(){
   let base = +prompt('Ingrese la base');
   let altura = +prompt('Ingrese la altura');
   let area = base * altura / 2;
@@ -32,14 +31,31 @@ function stop() {
 
   console.log(`el área del triángulo es ${area}`);
   console.log({ base }, { altura }, { area });
+}
 
 
-
+function ej5(){
   let nDolares = +prompt('número de dólares');
   let nSoles = nDolares * 3.38;
 
   console.log(`equivalen a ${nSoles}`);
   console.log({ nDolares });
+}
+
+
+
+function stop() {
+ 
+
+
+
+
+
+  
+
+
+
+
 
 
 
