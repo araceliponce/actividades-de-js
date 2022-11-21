@@ -8,13 +8,13 @@ function ej1() {
   console.log(`La suma de tus números ${numUno} y ${numDos} es ${suma} y su producto es ${producto}`);
 }
 
-function ej2(){
+function ej2() {
   let numEntero = +prompt('Ingrese un numero entero');
   let porcentaje = numEntero * 0.2;
   console.log(`El 10% de ${numEntero} es ${porcentaje}`);
 }
 
-function ej3(){
+function ej3() {
   let nMetros = +prompt('Ingrese un número de metros');
   let equivCM = nMetros * 100;
   let equivMM = equivCM * 10;
@@ -23,7 +23,7 @@ function ej3(){
 
 }
 
-function ej4(){
+function ej4() {
   let base = +prompt('Ingrese la base');
   let altura = +prompt('Ingrese la altura');
   let area = base * altura / 2;
@@ -34,7 +34,7 @@ function ej4(){
 }
 
 
-function ej5(){
+function ej5() {
   let nDolares = +prompt('número de dólares');
   let nSoles = nDolares * 3.38;
 
@@ -43,29 +43,16 @@ function ej5(){
 }
 
 
-
-function stop() {
- 
-
-
-
-
-
-  
-
-
-
-
-
-
+function ej6() {
 
   let nPulgadas = +prompt('número de pulgadas');
   let nMilimetros = nDolares * 25.4;
 
   console.log(`equivalen a ${nMilimetros} mm`);
   console.log({ nPulgadas });
+}
 
-
+function ej7() {
   let otroNumero = prompt('un número de tres cifras');
 
   let digits = otroNumero.split('');
@@ -77,9 +64,9 @@ function stop() {
   let resultadoFinal = otraSuma ** 2 //es igual a Math.pow(otraSuma);
 
   console.log(`la suma de sus tres cifras es ${otraSuma} y esa suma al cuadrado es ${resultadoFinal}`);
+}
 
-
-
+function ej8() {
 
   let monto = +prompt('Ingresa un monto');
 
@@ -88,9 +75,9 @@ function stop() {
   let paraC = monto * 0.5;
 
   console.log(`Al socio A le corresponden ${paraA}, al socio B ${paraB} y al socio C ${paraC}`);
+}
 
-
-
+function ej9() {
   const igv = 0.19;
   let precioBase = +prompt('ingrese el precio base');
   let igvPrecioBase = (precioBase * igv).toFixed(2);
@@ -99,8 +86,9 @@ function stop() {
 
   console.log(`el precio final por pagar es ${precioFinal}`);
   console.log({ precioBase }, { igvPrecioBase }, { precioFinal });
+}
 
-
+function ej10() {
 
   let tiposEntradas = [['general', 150], ['para mayores de 65', 50], ['para menores de edad', '80']];
   let cuantas;
@@ -122,7 +110,6 @@ function stop() {
     console.log(`En total se recaudaron ${totalRecaudado} soles`);
   }
 
-
-
 }
+
 
