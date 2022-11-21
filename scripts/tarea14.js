@@ -85,7 +85,9 @@ function tarea14act3() {
   //tiposEntradas[2] es la cantidad vendida de cada una
   for (i = 0; i < tiposEntradas.length; i++) {
     let recaudado = tiposEntradas[i][1] * tiposEntradas[i][2];
-    console.log(`las entradas de tipo ${tiposEntradas[i][0]} recaudaron ${recaudado} soles`);
+    let aviso =`las entradas de tipo ${tiposEntradas[i][0]} recaudaron ${recaudado} soles`;
+    alert(aviso);
+    console.log(aviso);
 
     arrayDeRecaudados.push(recaudado); //cada valor es guardado en una array vacío que teniamos
   }
