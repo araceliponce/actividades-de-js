@@ -55,3 +55,71 @@ btnUno.addEventListener('click', () => {
 
 
 //ACTIVIDAD ASINCRONA/////////////////////////////////////////////////////
+
+
+//ej 1
+let nombre, sueldo, nHijos, boton, respuesta; //entrada de variables importantes ya mencionadas en html
+let bonificacion;
+let sueldoFinal; //variables a calcular
+boton = document.getElementById('boton1');
+
+
+boton.addEventListener('click', () => {
+  console.log('click')
+  nombre = document.getElementById('nombreT').value;
+  sueldo = parseInt(document.getElementById('sueldoT').value);
+  nHijos = document.getElementById('nHijosT').value;
+  respuesta = document.getElementById('respuesta1');
+
+  //calculos y respuestas
+  if (nHijos > 0) {
+    bonificacion = sueldo * 0.07;
+    console.log({ bonificacion });
+    sueldoFinal = sueldo + bonificacion;
+    respuesta.innerText = `Usted obtiene una bonificación. Su sueldo final son ${sueldoFinal} soles.`
+  } else {
+    sueldoFinal = sueldo;
+    respuesta.innerText = `Usted obtiene una bonificación. Su sueldo sigue siendo el mismo.`
+  }
+})
+
+
+//ej. 2
+//entrada
+let numero;
+let btn = document.getElementById('boton2');
+let respuestaDos = document.getElementById('respuesta2');
+let porcentaje;
+
+btn.addEventListener('click', () => {
+  numero = parseInt(document.getElementById('numero').value);
+  //calculos y salida
+  if (numero > 500) {
+    porcentaje = (numero * 0.18).toFixed(3);
+    respuestaDos.innerText = `el número es mayor que 500, su 18% es igual a ${porcentaje}`;
+  } else {
+    respuestaDos.innerText = 'el número no es mayor que 500'
+  }
+})
+
+
+//ej. 3
+    //entrada
+    let unNumero;
+    let respuesta3 = document.getElementById('respuesta3');
+    let btn3 = document.getElementById('btn3');
+    let factorial;
+
+    //evento asociado a botón
+    btn3.addEventListener('click', () => {
+      unNumero = parseInt(document.getElementById('unnumero').value);
+
+      let factorial = 1;
+      //calculos
+      for (i = 1; i <= unNumero; i++) {
+        factorial = factorial * i;
+        console.log(factorial);
+      }
+      //salida
+      respuesta3.innerText = `el factorial de ${unNumero} es ${factorial}`;
+    })

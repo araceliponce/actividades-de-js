@@ -85,3 +85,10 @@ input,
 label {
   display: block;
 }
+h2, em{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+p{
+  text-transform: capitalize;
+}
