@@ -16,8 +16,8 @@ function tarea14reto1() {
   let restaCuatroTres = numCuatro - numTres;
   let resultadoFinal = sumaUnoDos * restaCuatroTres;
 
-  console.log({ resultadoFinal });
-  console.log({ sumaUnoDos }, { restaCuatroTres });
+  alert({ resultadoFinal });
+  alert({ sumaUnoDos }, { restaCuatroTres });
 };
 
 
