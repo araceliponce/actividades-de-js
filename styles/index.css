@@ -85,10 +85,18 @@ input,
 label {
   display: block;
 }
-h2, em{
+
+h2,
+em {
   text-transform: uppercase;
   font-weight: bold;
 }
-p{
+
+p::first-letter {
   text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+
 }

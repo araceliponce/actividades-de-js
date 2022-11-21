@@ -91,6 +91,8 @@ function tarea14act3() {
   }
   console.log({ arrayDeRecaudados }); //comprobamos y luego los sumamos
   totalRecaudado = arrayDeRecaudados.reduce((a, b) => a + b, 0);
-  console.log(`En total se recaudaron ${totalRecaudado} soles`);
+  let mensaje =`En total se recaudaron ${totalRecaudado} soles`;
+  alert(mensaje);
+  console.log(mensaje);
 
 }
