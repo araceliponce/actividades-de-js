@@ -98,5 +98,10 @@ p::first-letter {
 
 .flex {
   display: flex;
+  gap: 1em;
+  align-items: center;
+}
 
+.flex>* {
+  flex-basis: 100%;
 }
