@@ -43,7 +43,7 @@ function tarea14act1() {
 
 
 function tarea14act2() {
-  let dineroTotal = document.getElementById('input4').value;
+  let dineroTotal = document.getElementById('dineroTotal').value;
   let lugarPorcentaje = [['av la mar', 35], ['av abanay', 25], ['av 28 de julio', 10], ['av aviacion', 15], ['av tacna', (100 - (35 + 25 + 10 + 15))]];
   console.log({ lugarPorcentaje }); /* para comprobar si las sumas y restas funcionan en av tacna */
 
