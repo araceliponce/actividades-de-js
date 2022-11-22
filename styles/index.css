@@ -86,16 +86,24 @@ label {
   display: block;
 }
 
-input,button {
+input,
+button {
   padding: .1rem .3rem;
   border-radius: .5rem;
 }
 
-button{
-background: cornflowerblue;
-outline: .2rem solid transparent;
-border: none;
-margin: .3rem 0 1rem 0;
+button {
+  background: cornflowerblue;
+  outline: .2rem solid transparent;
+  border: none;
+  margin: .3rem 0 1rem 0;
+  min-width: 3rem;
+
+}
+
+button:hover {
+  transform: scale(1.1);
+  outline: .2rem solid rebeccapurple;
 }
 
 h2,
