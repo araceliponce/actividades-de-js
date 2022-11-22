@@ -16,7 +16,7 @@
   <header>
     <nav>
       <ul class="container small">
-        <li><a href="index.html">&laquo;</a>
+        <li><a href="/">&laquo;</a>
         </li>
         <li><a href="tarea13.html">tarea 13</a></li>
         <li><a href="tarea14.html">tarea 14</a></li>
@@ -37,30 +37,32 @@
     <p>Multiplicar el resultado obtenido de las 2 operaciones anteriores, guardar el resultado en una nueva variable llamada resultadoFinal.</p>
     <button onclick="tarea14reto1">clic</button>
 
-
-
-
     <h2>ACTIVIDAD ASÍNCRONA</h2>
+    <ol>
+      <li>
+        <p>un maestro desea saber el porcentaje de alumnos que tiene en su salón cuando solo sabe el número de alumnos, el numero de niños y el número de niñas en su salón</p>
+        <div class="flex">
+          <label>Ingrese la cantidad de estudiantes<input type="number" id="input1"></label>
+          <label>¿Cuántos varones? <input type="text" id="input2"></label>
+          <label>¿Cuántas niñas? <input type="text" id="input3"></label>
+        </div>
+        <button onclick="tarea14act1()">Obtener Porcentaje</button>
+      </li>
 
-    <p>un maestro desea saber el porcentaje de alumnos que tiene en su salón cuando solo sabe el número de alumnos, el numero de niños y el número de niñas en su salón</p>
-    <div class="flex">
-      <label>Ingrese la cantidad de estudiantes<input type="number" id="input1"></label>
-      <label>¿Cuántos varones? <input type="text" id="input2"></label>
-      <label>¿Cuántas niñas? <input type="text" id="input3"></label>
-    </div>
-    <button onclick="tarea14act1()">Obtener Porcentaje</button>
+      <li>
+        <p>una municipalidad tiene que reparar las pistas de sus avenidas principales, y cada av tiene un % ya destinado, colocar el monto del presupuesto para saber cuanto dinero le corresponde a cada obra</p>
+        <label>Monto de dinero total<input type="number" id="dineroTotal"></label>
+        <button onclick="tarea14act2()">Obtener Dinero Recaudado</button>
+      </li>
 
-
-    <p>una municipalidad tiene que reparar las pistas de sus avenidas principales, y cada av tiene un % ya destinado, colocar el monto del presupuesto para saber cuanto dinero le corresponde a cada obra</p>
-    <label>Monto de dinero total<input type="number" id="dineroTotal"></label>
-    <button onclick="tarea14act2()">Obtener Dinero Recaudado</button>
-
-    <p>una empresa vende tres tipos de entradas, ingresar cuantas se venden de cada uno para obtener los montos recaudados</p>
-    <label>entradas generales vendidas<input type="number" id="input4"></label>
-    <label>entradas para mayores de 65 vendidas<input type="number" id="input5"></label>
-    <label>entradas para menores de edad vendidas<input type="number" id="input6"></label>
-    <button onclick="tarea14act3()">Obtener Dinero Recaudado</button>
-
+      <li>
+        <p>una empresa vende tres tipos de entradas, ingresar cuantas se venden de cada uno para obtener los montos recaudados</p>
+        <label>entradas generales vendidas<input type="number" id="input4"></label>
+        <label>entradas para mayores de 65 vendidas<input type="number" id="input5"></label>
+        <label>entradas para menores de edad vendidas<input type="number" id="input6"></label>
+        <button onclick="tarea14act3()">Obtener Dinero Recaudado</button>
+      </li>
+    </ol>
 
   </main>
 
