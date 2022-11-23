@@ -1,23 +1,19 @@
-///////////////////////////////////////////////////////
-
-
-
 function tarea14reto1() {
   //datos ya definidos
-  numUno = 43;
-  numDos = 46;
-  numTres = 81;
-  numCuatro = 76;
+  let numUno = 43;
+  let numDos = 46;
+  let numTres = 81;
+  let numCuatro = 76;
 
   console.log({ numUno }, { numDos }, { numTres }, { numCuatro });
 
   //operaciones
   let sumaUnoDos = numUno + numDos;
+  console.log({ sumaUnoDos });
   let restaCuatroTres = numCuatro - numTres;
+  console.log({ restaCuatroTres });
   let resultadoFinal = sumaUnoDos * restaCuatroTres;
-
-  alert({ resultadoFinal });
-  alert({ sumaUnoDos }, { restaCuatroTres });
+  console.log({ resultadoFinal });
 };
 
 
@@ -85,7 +81,7 @@ function tarea14act3() {
   //tiposEntradas[2] es la cantidad vendida de cada una
   for (i = 0; i < tiposEntradas.length; i++) {
     let recaudado = tiposEntradas[i][1] * tiposEntradas[i][2];
-    let aviso =`las entradas de tipo ${tiposEntradas[i][0]} recaudaron ${recaudado} soles`;
+    let aviso = `las entradas de tipo ${tiposEntradas[i][0]} recaudaron ${recaudado} soles`;
     alert(aviso);
     console.log(aviso);
 
@@ -93,7 +89,7 @@ function tarea14act3() {
   }
   console.log({ arrayDeRecaudados }); //comprobamos y luego los sumamos
   totalRecaudado = arrayDeRecaudados.reduce((a, b) => a + b, 0);
-  let mensaje =`En total se recaudaron ${totalRecaudado} soles`;
+  let mensaje = `En total se recaudaron ${totalRecaudado} soles`;
   alert(mensaje);
   console.log(mensaje);
 

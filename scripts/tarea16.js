@@ -3,8 +3,8 @@ function tarea16act3() {
   let numeroB = parseInt(prompt('introduzca un segundo numero'));
 
   let laSuma = alertarSuma(numeroA, numeroB);
-  alert(`La suma de los dos numero es ${laSuma}`)
-  console.log(`La suma de los dos numero es ${laSuma}`);
+  alert(`La suma de los dos números es ${laSuma}`)
+  console.log(`La suma de los dos números es ${laSuma}`);
   function alertarSuma(x, y) {
     return alert(x + y);
   };
@@ -27,7 +27,6 @@ function tarea16act2() {
 }
 
 
-
 function tarea16act1() {
   let multiply = function (x, y) {
     return x * y;
@@ -37,7 +36,6 @@ function tarea16act1() {
   }
 
   let suma = (x, y) => { return x + y };
-
 
   // funcion resta creada
   let resta = (x, y) => { return x - y };
